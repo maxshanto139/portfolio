@@ -7,3 +7,13 @@ h1 {
 .carbon {
     color: rgb(37, 37, 231);
 }
+.upper {
+    width: 40%;
+    margin-left: 3%;
+    padding-left: 2%;
+    float: left;
+}
+.upper img {
+    width: 100%;
+    margin: 5%;
+}
