@@ -1,19 +1,69 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0%;
+}
+section{
+    height: 500px;
+}
+.section1{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.section2{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.section3{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
 }
 h1 {
     font-size: 50px;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    color: dimgray;
 }
 .carbon {
     color: rgb(37, 37, 231);
 }
 .upper {
     width: 40%;
-    margin-left: 3%;
+    margin-left: 5%;
     padding-left: 2%;
     float: left;
 }
 .upper img {
     width: 100%;
-    margin: 5%;
+}
+.top-button{
+    text-decoration: none;
+    background-image: linear-gradient(salmon, tomato);
+    border-radius: 10px;
+    padding: 10px 30px;
+    color: white;
+    margin-right:15px;
+}
+.bottom-div{
+    box-shadow: 10px 20px 40px gray;
+    height: 65%;
+    padding-right: 30px;
+}
+#box1{
+    border-left: 10px solid;
+    border-image: linear-gradient(salmon, tomato);
+    border-image-slice: 1;
+}
+#box2{
+    border-left: 10px solid;
+    border-image: linear-gradient(blue, rgb(150, 150, 229));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    font-size: 15px;
 }
