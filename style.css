@@ -34,11 +34,12 @@ p{
 .upper {
     width: 40%;
     margin-left: 5%;
+    margin-top: 2%;
     padding-left: 2%;
     float: left;
 }
 .upper img {
-    width: 100%;
+    width:80%;
 }
 .top-button{
     text-decoration: none;
@@ -48,10 +49,17 @@ p{
     color: white;
     margin-right:15px;
 }
+.top-button:hover{
+    font-size: larger;
+    box-shadow: 10px 20px 30px gray;
+}
 .bottom-div{
     box-shadow: 10px 20px 40px gray;
     height: 65%;
     padding-right: 30px;
+}
+.bottom-div:hover{
+    border-style: solid;
 }
 #box1{
     border-left: 10px solid;
@@ -66,4 +74,5 @@ p{
 footer{
     text-align: center;
     font-size: 15px;
+    margin-bottom: 20px;
 }
